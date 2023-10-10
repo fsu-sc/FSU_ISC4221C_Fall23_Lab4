@@ -1,27 +1,26 @@
-# FSU_ISC4221C_Fall23_Lab4
-Graphs 1
+# FSU_ISC4221C_Fall23_Lab4  Graphs 1/2
 
 ## Objective
-We want to practice the basic concects of graphs that we have seen on class. 
+We want to practice the basic concepts of graphs that we have seen in class. 
 
 ##  Problem 1 (20 Pts):  
-A  maze  is an arrangement of rooms, connected in a complicated way. A maze might have an entrance 
+A  maze  is an arrangement of rooms connected in a complicated way. A maze might have an entrance 
  and exit, or we might be required to go from one room to another.  
 
 ![Images](mazer.png)
 
 A maze can be represented by a graph. The entrance, the exit, every dead-end, and every point where we  
-have to make a choice should each be a node. The paths between these points become edges. The "right  
-hand rule" suggests getting from one spot by walking with your right hand always touching the wall, turning  
+have to make a choice should each be a node. The paths between these points become edges. The "right-hand rule"
+suggests getting from one spot by walking with your right hand always touching the wall, turning  
 whenever you have to to keep your hand on the wall.  
 
-In Figure 1 the left panel is a simple maze and the center panel its corresponding graph.  
+In Figure 1, the left panel is a simple maze, and the right panel is its corresponding graph.  
 
-1. (5) Verify that the "right hand rule" works for the yellow maze, by **listing the sequence of nodes**, starting  
-at node 1, that lead to node 2 following this rule. Add to your report. 
-2. (5) Create an **edge list** for your graph and add to your report.   
-3. (5) Create an **adjacency matrix**  for your graph add to your report.
-4. (5) Plot your graph using **networkx** and add to your report.
+1. (5) Verify that the "right-hand rule" works for the yellow maze by **listing the sequence of nodes**, starting  
+at node 1, that leads to node 2 following this rule.  Add to your report. 
+2. (5) Create an **edge list** for your graph and add it to your report.   
+3. (5) Create an **adjacency matrix**  for your graph and add it to your report.
+4. (5) Plot your graph using **networkx** and add it to your report.
 
 ##  Problem 2 (20 Pts):  
 
@@ -44,19 +43,19 @@ def read_graph(filename):
 ```
 
 ##  Problem 3 (20 Pts):  
-Write a function based on the "Connection Algorithm" discussed in class to determine
- whether there is a path from one node to another in a graph:
+Write a function based on the "Connection Algorithm" discussed in class to determine 
+whether there is a path from one node to another in a graph:
 
 * Read the edge list of a graph;
 * Read the numeric indices of two nodes;
-* Determine if there is a path from one node to the other and print “path" or “no path".
+* Determine if a path exists from one node to another and print “path" or "no path".
 
-Append the output of your code on the “Paths" graph (path_edges.txt), and the following pairs of nodes:
+Append the output of your code on the “Paths" graph (path_edges.txt) and the following pairs of nodes:
 
 * from node G (7) to node H (8)
 * from node G (7) to node I (9)
 
-The structure of your function should be:
+The structure of your function should be as follows:
 ```Python
 def find_path(edges, node_a, node_b):
     # .....
