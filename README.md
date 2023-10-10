@@ -30,7 +30,7 @@ at node 1, that leads to node 2 following this rule.  Add to your report.
 Write a function that can read a graph that is described by an edge list from a file. 
 Your function should:
 * Read the edge list of a graph;
-* Print and return the edge nd.array --> shape N,2;
+* Print and return the edge list nd.array --> shape N,2;
 * Print and return the number of edges (int).
 * Print and return the number of nodes (int);
 * Print and return the degree of each node (list of ints).
