@@ -3,6 +3,8 @@
 ## Objective
 We want to practice the basic concepts of graphs that we have seen in class. 
 
+**All your coding answers should be in a single file named `answers_lab.py`; be careful with the names of your functions. Your report should be a self-contained markdown file with a description of your answers and the code copied inside of it.**
+
 ##  Problem 1 (20 Pts):  
 A  maze  is an arrangement of rooms connected in a complicated way. A maze might have an entrance 
  and exit, or we might be required to go from one room to another.  
@@ -28,7 +30,7 @@ at node 1, that leads to node 2 following this rule.  Add to your report.
 Write a function that can read a graph that is described by an edge list from a file. 
 Your function should:
 * Read the edge list of a graph;
-* Print and return the edge list (list of lists or tuples);
+* Print and return the edge nd.array --> shape N,2;
 * Print and return the number of edges (int).
 * Print and return the number of nodes (int);
 * Print and return the degree of each node (list of ints).
@@ -49,12 +51,13 @@ whether there is a path from one node to another in a graph:
 
 * Read the edge list of a graph;
 * Read the numeric indices of two nodes;
+* Print the state of the three arrays **used**, **new**, and **untouched** after each iteration of the algorithm;
 * Determine if a path exists from one node to another and print “path" or "no path".
 
 Append the output of your code on the “Paths" graph (path_edges.txt) and the following pairs of nodes:
 
-* from node G (7) to node H (8)
-* from node G (7) to node I (9)
+* from node G (6) to node H (7)
+* from node G (6) to node I (8)
 
 The structure of your function should be as follows:
 ```Python
