@@ -6,8 +6,9 @@ We want to practice the basic concepts of graphs that we have seen in class.
 ##  Problem 1 (20 Pts):  
 A  maze  is an arrangement of rooms connected in a complicated way. A maze might have an entrance 
  and exit, or we might be required to go from one room to another.  
+ 
+<img src="mazer.png" width="600" />
 
-![Images](mazer.png)
 
 A maze can be represented by a graph. The entrance, the exit, every dead-end, and every point where we  
 have to make a choice should each be a node. The paths between these points become edges. The "right-hand rule"
